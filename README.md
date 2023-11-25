@@ -11,7 +11,7 @@ Below is a screenshot of the daily planner and the URL of the deployed webiste:
 ![demo 1](./images/Screenshot%201.png)
 ![demo 2](./images/Screenshot%202.png)
 
-URL to deployed application:
+URL to deployed application: https://ikran1.github.io/Daily-Planner-App/
 
 ## Credit
 
