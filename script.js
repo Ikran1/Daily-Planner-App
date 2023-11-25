@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    localStorage.clear();
+    
     // Display the current day at the top of the calender when a user opens the planner.
     var date = dayjs();
     $("#currentDay").text(date.format("dddd, MMMM D"));
