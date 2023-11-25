@@ -1,11 +1,11 @@
 $(document).ready(function () {
-
+    localStorage.clear();
     // Display the current day at the top of the calender when a user opens the planner.
     var date = dayjs();
     $("#currentDay").text(date.format("dddd, MMMM D"));
 
 
-    // Create a click event for save button 
+    // Create a click event for the save button 
     $(".saveBtn").on("click", function () {
         const hour = $(this).parent().attr("data-hour");
         const task = $(this).siblings(".description").val();
